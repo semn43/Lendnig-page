@@ -15,3 +15,24 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url(../Img/headerBG.png);
+	background-repeat: no-repeat;
+
+	background-size: cover;
+	background-position: bottom;
+}
+.headerBtn{
+	display: inline-block;
+	cursor: pointer;
+	padding: 100px 10px 0 10px;
+}
+.bet{
+	display: inline-block;
+}
