@@ -15,24 +15,37 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
-h1,h2,h3,h4,h5,h6{
-	margin: 0;
-	padding: 0;
-}
-
 
 body{
-	background-image: url(../Img/headerBG.png);
-	background-repeat: no-repeat;
+  background-image: url(../Img/headerBG.jpg);
+  background-repeat: no-repeat;
+  background-size: 1920px 1000px;
 
-	background-size: cover;
-	background-position: bottom;
 }
-.headerBtn{
-	display: inline-block;
-	cursor: pointer;
-	padding: 100px 10px 0 10px;
+
+.navigh{
+  color: #07c8c0;
+  margin: 0 10px 0 0;
 }
-.bet{
-	display: inline-block;
+
+.navigationbar{
+  margin: -10px 0 0 0 ;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+  margin: 40px auto auto;
+  width: 950px;
+  height: 700px;
+}
+
+.logo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  background: linear-gradient(45deg, #0eaeae 33%, #4693bc 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
 }
