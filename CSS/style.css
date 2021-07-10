@@ -17,35 +17,95 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body{
-  background-image: url(../Img/headerBG.jpg);
+  background-image: url(../Img/bg.jpg);
   background-repeat: no-repeat;
-  background-size: 1920px 1000px;
+  background-size: 1920px 5378px;
 
 }
 
 .navigh{
   color: #07c8c0;
-  margin: 0 10px 0 0;
+  margin: 0 20px 0 0;
+
+}
+
+.naviga{
+  color: #fff;
+  margin: 0 20px 0 0;
+
+}
+
+.navige{
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+.navigt{
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+
+.navigw{
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+
+.navigp{
+  color: #fff;
+  margin: 0 20px 0 0;
+}
+
+.navigc{
+  color: #fff;
+  margin: 0 20px 0 0;
 }
 
 .navigationbar{
   margin: -10px 0 0 0 ;
   float: right;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 
 }
 
 .container{
-  margin: 40px auto auto;
+  margin: auto auto;
   width: 950px;
   height: 700px;
 }
 
 .logo{
+  font-weight: 700;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   background: linear-gradient(45deg, #0eaeae 33%, #4693bc 66%, #8AA9D6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: table;
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "Playfair Display";
+  color: #fff;
+  text-align: center;
+  margin: 185px 0 0 0;
+}
+
+.text{
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  line-height: 25px;
+  font-size: 18px;
+  word-spacing: 2px;
+  margin: 55px 45px 0 0;
+}
+
+.btn{
+  color: #0eaeae;
+  border: 1px solid #0eaeae;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+
 }
