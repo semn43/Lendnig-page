@@ -26,37 +26,21 @@ body{
 .navigh{
   color: #07c8c0;
   margin: 0 20px 0 0;
-
+  transition: all 0.1s linear;
 }
 
-.naviga{
-  color: #fff;
-  margin: 0 20px 0 0;
-
+.navigh:hover{
+  color: #00a693;
+}
+.naviga:hover, .navige:hover, .navigt:hover, .navigw:hover, .navigp:hover, .navigc:hover{
+  color: #C0C0C0;
+  transform: scale(1.1);
 }
 
-.navige{
+.naviga, .navige, .navigt, .navigw, .navigp, .navigc{
   color: #fff;
   margin: 0 20px 0 0;
-}
-.navigt{
-  color: #fff;
-  margin: 0 20px 0 0;
-}
-
-.navigw{
-  color: #fff;
-  margin: 0 20px 0 0;
-}
-
-.navigp{
-  color: #fff;
-  margin: 0 20px 0 0;
-}
-
-.navigc{
-  color: #fff;
-  margin: 0 20px 0 0;
+  transition: all 0.1s linear;
 }
 
 .navigationbar{
@@ -68,9 +52,11 @@ body{
 }
 
 .container{
-  margin: auto auto;
+  margin: 30px 0 0 0;
   width: 950px;
   height: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo{
@@ -102,10 +88,150 @@ body{
 }
 
 .btn{
+  font-size: 16px;
   color: #0eaeae;
   border: 1px solid #0eaeae;
   border-radius: 3px;
   padding: 10px;
   font-family: 'Hammersmith One', sans-serif;
+  position: absolute;
+  margin: 55px 0px 0px 400px;
+  transition: all 0.1s linear;
+}
 
+.btn:hover{
+  transform: scale(1.1);
+  color:#40E0D0 ;
+}
+
+.block_two{
+  width: 940px;
+  height: 405px;
+  margin: 265px 0px 0px 0px;
+}
+
+.story{
+  margin: 340px 0px 0px 400px;
+  color: #413d4b;
+  font-size: 26px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+.txt{
+  margin: 30px 0px 0px 0px;
+  font-family: "roboto", sans-serif;
+  color: #716e78;
+  line-height: 20px;
+  word-spacing: 2px;
+  font-size: 16px;
+  font-weight: 510;
+  background: url(../Img/tlgr.png) left;
+  background-repeat: no-repeat;
+
+  padding: 0px 0px 0px 400px;
+  background-size: 20%;
+}
+
+.btn2{
+  font-size: 16px;
+  color: #0eaeae;
+  border: 1px solid #0eaeae;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  position: absolute;
+  margin: 20px 0px 0px 400px;
+  transition: all 0.1s linear;
+}
+
+.btn2:hover{
+  transform: scale(0.9);
+  color:#5F9EA0 ;
+}
+
+.block_three{
+  width: 940px;
+  height: 550px;
+}
+
+.ours{
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.vid{
+  margin: 0px 0px 0px 30px;
+
+}
+
+.block_four{
+  width: 940px;
+  height: 757px;
+  position: absolute;
+  margin: -80px 0px 0px 0px;
+  background: url(../Img/grid.png) no-repeat 0px 185px;
+}
+
+.expertise{
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-align: center;
+  margin: 70px 0px 0px 0px ;
+  font-size: 22px;
+  color: #413d4b;
+}
+
+.lorem{
+  font-family: "Playfair Display";
+  color: #8d8c90;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.line{
+  margin: 20px 0px 0px 440px;
+}
+
+#blocks{
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  color: #413d4b;
+  font-size: 15px;
+  word-spacing: 2px;
+}
+
+.webhead{
+  margin: 160px 0px 0px 45px;
+
+}
+
+.webhead1{
+  
+}
+
+
+.webhead2{
+  
+}
+
+.webhead3{
+  
+}
+
+.webhead4{
+  
+}
+
+.webhead5{
+
+}
+
+.loremweb{
+  margin: 0px 0px 0px -550px;
 }
