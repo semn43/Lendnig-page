@@ -146,7 +146,7 @@ body{
 }
 
 .btn2:hover{
-  transform: scale(0.9);
+  transform: scale(1.1);
   color:#5F9EA0 ;
 }
 
@@ -208,30 +208,97 @@ body{
 
 .webhead{
   margin: 160px 0px 0px 45px;
+}
 
+.webimg{
+  position: absolute;
+  margin: 100px 0px 0px -365px;
 }
 
 .webhead1{
-  
+  margin: -75px 0px 0px 400px;
+
 }
 
+.webimg1{
+  position: absolute;
+  margin: -155px 0px 0px 450px;
+}
 
 .webhead2{
-  
+  margin: -75px 0px 0px 750px;
+}
+
+.webimg2{
+  position: absolute;
+  margin: -155px 0px 0px 770px;
 }
 
 .webhead3{
-  
+  margin: 200px 0px 0px 35px;
+}
+
+.webimg3{
+  position: absolute;
+  margin: 115px 0px 0px 125px;
 }
 
 .webhead4{
-  
+  margin: -75px 0px 0px 400px;
 }
+
+.webimg4{
+  position: absolute;
+  margin: -160px 0px 0px 450px;
+}
+
 
 .webhead5{
-
+  margin: -75px 0px 0px 730px;
 }
 
-.loremweb{
-  margin: 0px 0px 0px -550px;
+.webimg5{
+  position: absolute;
+  margin: -160px 0px 0px 770px;
+}
+
+
+
+.loremweb, .loremweb1, .loremweb2, .loremweb3, .loremweb4, .loremweb5{
+  margin: 10px 0px 0px -650px;
+  font-size: 17px;
+  color: #666666;
+  font-family: "Playfair Display";
+}
+
+.loremweb1{
+  margin: 10px 0px 0px 0px;
+}
+.loremweb2{
+  margin: 10px 0px 0px 650px;
+}
+
+.loremweb4{
+margin: 10px 0px 0px 0px;
+}
+
+.loremweb5{
+  margin: 10px 0px 0px 630px;
+}
+
+
+.block_five{
+  border: 1px solid #000; 
+  margin: 675px 0px 0px 0px;
+  width: 940px;
+  height: 710px;
+}
+
+
+
+.meet{
+  font-family: "Playfair Display";
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
 }
