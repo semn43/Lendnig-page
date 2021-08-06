@@ -195,7 +195,7 @@ body{
 }
 
 .line{
-  margin: 20px 0px 0px 440px;
+  margin: 20px 0px 20px 440px;
 }
 
 #blocks{
@@ -288,7 +288,6 @@ margin: 10px 0px 0px 0px;
 
 
 .block_five{
-  border: 1px solid #000; 
   margin: 675px 0px 0px 0px;
   width: 940px;
   height: 710px;
@@ -301,4 +300,90 @@ margin: 10px 0px 0px 0px;
   font-size: 20px;
   color: #fff;
   font-weight: 700;
+  text-align: center;
+  margin: 780px 0px 15px 0px;
 }
+
+.lor{
+  font-smoothing: "Playfair Display";
+  color: #fff;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.staff{
+margin: 0px 0px 15px 0px;
+  width: 220px;
+  height: 310px;
+  border: 1px solid #747388;
+  overflow: hidden;
+}
+.staffi{
+  height: 234px;
+  width: 220px;
+}
+
+.staff2{
+  margin: -310px 0px 20px 230px;
+  width: 220px;
+  height: 310px;
+  border: 1px solid #747388;
+  overflow: hidden;
+}
+.staff2i{
+  height: 234px;
+  width: 220px;
+}
+
+.staff3{
+  margin: -310px 0px 25px 460px;
+  width: 220px;
+  height: 310px;
+  border: 1px solid #747388;
+  overflow: hidden;
+}
+.staff3i{
+  height: 234px;
+  width: 220px;
+}
+
+.staff4{
+  margin: -310px 0px 30px 690px;
+  width: 220px;
+  height: 310px;
+  border: 1px solid #747388;
+  overflow: hidden;
+}
+.staff4i{
+  height: 234px;
+  width: 220px;
+}
+
+.name{
+  color: #f4f3f5 ;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  font-family: "roboto", sans-serif;
+  font-size: 17px;
+}
+
+.SPEC{
+  color: #9d9bad;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-family: "roboto", sans-serif;
+  font-size: 15px;
+}
+
+.staff, .staff2, .staff3, .staff4{
+  transition-duration: 0.5s;
+
+}
+
+.staff:hover, .staff2:hover, .staff3:hover, .staff4:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+ box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
