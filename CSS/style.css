@@ -20,7 +20,6 @@ body{
   background-image: url(../Img/bg.jpg);
   background-repeat: no-repeat;
   background-size: 1920px 5378px;
-
 }
 
 .navigh{
@@ -48,7 +47,6 @@ body{
   float: right;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-
 }
 
 .container{
@@ -102,6 +100,7 @@ body{
 .btn:hover{
   transform: scale(1.1);
   color:#40E0D0 ;
+  animation: glitch-skew 1s linear infinite alternate-reverse;
 }
 
 .block_two{
@@ -143,11 +142,13 @@ body{
   position: absolute;
   margin: 20px 0px 0px 400px;
   transition: all 0.1s linear;
+
 }
 
 .btn2:hover{
   transform: scale(1.1);
   color:#5F9EA0 ;
+
 }
 
 .block_three{
@@ -387,3 +388,28 @@ margin: 0px 0px 15px 0px;
  box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
+.btn3{
+  font-size: 16px;
+  color: #0eaeae;
+  border: 1px solid #0eaeae;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  position: absolute;
+  margin: 20px 0px 0px 420px;
+  transition: all 0.1s linear;
+
+}
+
+.btn3:hover{
+  transform: scale(1.1);
+  color:#5F9EA0 ;
+  cursor: pointer;
+}
+
+.partofus{
+  color: #fff;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+}
