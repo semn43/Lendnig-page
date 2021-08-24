@@ -22,42 +22,129 @@ body{
   background-size: 1920px 5378px;
 }
 
-.navigh{
-  color: #07c8c0;
-  margin: 0 20px 0 0;
-  transition: all 0.1s linear;
-}
-
-.navigh:hover{
-  color: #00a693;
-}
-.naviga:hover, .navige:hover, .navigt:hover, .navigw:hover, .navigp:hover, .navigc:hover{
-  color: #C0C0C0;
-  transform: scale(1.1);
-}
-
-.naviga, .navige, .navigt, .navigw, .navigp, .navigc{
-  color: #fff;
-  margin: 0 20px 0 0;
-  transition: all 0.1s linear;
-}
-
-.navigationbar{
-  margin: -10px 0 0 0 ;
-  float: right;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-}
-
+/* Ограничение всего контента на сайте */
 .container{
-  margin: 30px 0 0 0;
   width: 950px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.block_one{
+  opacity: 0;
+  transform: translateX(-150px);
+}
+
+.block_two{
+  width: 940px;
+  height: 405px;
+  margin: 265px 0px 0px 0px;
+  opacity: 0;
+  transform: translateX(150px);
+}
+.block_three{
+  width: 940px;
+  height: 550px;
+  opacity: 0;
+  transform: translateX(-150px);
+}
+.block_four{
+  width: 940px;
+  height: 757px;
+  position: absolute;
+  margin: -80px 0px 0px 0px;
+  background: url(../Img/grid.png) no-repeat 0px 185px;
+  opacity: 0;
+  transform: translateX(150px);
+}
+
+.block_five{
+  margin: 675px 0px 0px 0px;
+  width: 940px;
+  height: 710px;
+  opacity: 0;
+  transform: translateX(-150px);
+}
+
+.vid{
+  margin: 0px 0px 0px 30px;
+}
+
+.element-show{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1.5s linear;
+  transform: rotate(0deg);
+}
+
+/* Зафиксированная шапка сайта */
+/* Зафиксированная шапка сайта */
+
+.navigh{
+  color: #07c8c0;
+  margin: 0 30 0 -80px;
+  transition: all 0.1s linear;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+.navigh:hover{
+  color: #00a693;
+  transform: scale(1.1);
+}
+.naviga:hover, .navige:hover, .navigt:hover, .navigw:hover, .navigp:hover, .navigc:hover{
+  color: #C0C0C0;
+  transform: scale(1.1);
+
+
+}
+
+.naviga, .navige, .navigt, .navigw, .navigp, .navigc{
+  color: #fff;
+  position: absolute;
+  transition: all 0.1s linear;
+  cursor: pointer;
+
+}
+
+.naviga{
+  margin: 0px 0px 0px 20px;
+}
+
+.navige{
+  margin: 0px 0px 0px 80px;
+}
+
+.navigt{
+  margin: 0px 0px 0px 165px;
+}
+
+.navigw{
+  margin: 0px 0px 0px 225px;
+}
+
+.navigp{
+  margin: 0px 0px 0px 280px;
+}
+
+.navigc{
+  margin: 0px 0px 0px 340px;
+}
+
+.navigationbar{
+  position: absolute;
+  margin: 20px 0px 0 1100px ;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: all 0.1s linear;
+
 }
 
 .logo{
+  margin: 10px 0px 0px 320px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
@@ -67,13 +154,31 @@ body{
   display: table;
 }
 
+.headd{
+  margin: -230px 0px 0px 0px;
+  background: #3b2f60;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  transition: all 0.1s linear;
+
+}
+
+/* Зафиксированная шапка сайта */
+/* Зафиксированная шапка сайта */
+
+
+
+
 .heading{
   font-weight: 700;
   font-size: 35px;
   font-family: "Playfair Display";
   color: #fff;
   text-align: center;
-  margin: 185px 0 0 0;
+  margin: 230px 0 0 0;
+  text-decoration: underline;
 }
 
 .text{
@@ -83,6 +188,7 @@ body{
   font-size: 18px;
   word-spacing: 2px;
   margin: 55px 45px 0 0;
+
 }
 
 .btn{
@@ -95,19 +201,16 @@ body{
   position: absolute;
   margin: 55px 0px 0px 400px;
   transition: all 0.1s linear;
+
 }
 
 .btn:hover{
   transform: scale(1.1);
   color:#40E0D0 ;
-  animation: glitch-skew 1s linear infinite alternate-reverse;
+
 }
 
-.block_two{
-  width: 940px;
-  height: 405px;
-  margin: 265px 0px 0px 0px;
-}
+
 
 .story{
   margin: 340px 0px 0px 400px;
@@ -115,6 +218,8 @@ body{
   font-size: 26px;
   font-family: "Playfair Display";
   font-weight: 700;
+  text-decoration: underline;
+
 }
 
 .txt{
@@ -141,7 +246,8 @@ body{
   font-family: 'Hammersmith One', sans-serif;
   position: absolute;
   margin: 20px 0px 0px 400px;
-  transition: all 0.1s linear;
+  transition: all 0.1s linear; 
+
 
 }
 
@@ -151,10 +257,7 @@ body{
 
 }
 
-.block_three{
-  width: 940px;
-  height: 550px;
-}
+
 
 .ours{
   font-size: 20px;
@@ -162,21 +265,12 @@ body{
   color: #fff;
   font-family: "roboto", sans-serif;
   text-align: center;
-  margin: 0px 0px 0px 0px;
-}
-
-.vid{
-  margin: 0px 0px 0px 30px;
+  margin: -40px 0px 40px 0px;
+  text-decoration: underline;
 
 }
 
-.block_four{
-  width: 940px;
-  height: 757px;
-  position: absolute;
-  margin: -80px 0px 0px 0px;
-  background: url(../Img/grid.png) no-repeat 0px 185px;
-}
+
 
 .expertise{
   font-weight: 700;
@@ -185,6 +279,7 @@ body{
   margin: 70px 0px 0px 0px ;
   font-size: 22px;
   color: #413d4b;
+  text-decoration: underline;
 }
 
 .lorem{
@@ -209,15 +304,18 @@ body{
 
 .webhead{
   margin: 160px 0px 0px 45px;
+
 }
 
 .webimg{
   position: absolute;
   margin: 100px 0px 0px -365px;
+
 }
 
 .webhead1{
   margin: -75px 0px 0px 400px;
+
 
 }
 
@@ -270,6 +368,7 @@ body{
   font-size: 17px;
   color: #666666;
   font-family: "Playfair Display";
+
 }
 
 .loremweb1{
@@ -287,22 +386,15 @@ margin: 10px 0px 0px 0px;
   margin: 10px 0px 0px 630px;
 }
 
-
-.block_five{
-  margin: 675px 0px 0px 0px;
-  width: 940px;
-  height: 710px;
-}
-
-
-
 .meet{
   font-family: "Playfair Display";
-  font-size: 20px;
+  font-size: 25px;
   color: #fff;
   font-weight: 700;
   text-align: center;
-  margin: 780px 0px 15px 0px;
+  margin: 780px 0px 25px 0px;
+  text-decoration: underline;
+
 }
 
 .lor{
@@ -310,6 +402,7 @@ margin: 10px 0px 0px 0px;
   color: #fff;
   text-align: center;
   margin: 10px 0px 10px 0px;
+
 }
 
 .staff{
@@ -412,4 +505,10 @@ margin: 0px 0px 15px 0px;
   text-align: center;
   font-family: "roboto", sans-serif;
   font-size: 16px;
+
+}
+
+.elemanim{
+  opacity: 1;
+  transition: all 0.1s linear;
 }
